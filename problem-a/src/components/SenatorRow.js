@@ -14,6 +14,7 @@ const SenatorRow = ({ senatorData }) => {
     return (
         <tr>
             <td>{name}</td>
+            {/* First letter of the Party */}
             <td><a>{party.charAt(0)} - {state}</a></td>
             <td><a href="tel:123-456-789">123-456-789</a></td>
             <td><a href={twitterUrl}>@{twitter}</a></td>

@@ -5,6 +5,8 @@ import _ from 'lodash'; //import external library!
 export default function GameDataTable(props) {
 
   //Your work goes here
+  const [sortByCriteria, setSortByCriteria] = useState(null);
+
 
   //convert data into rows
   const rows = props.data.map((match) => {

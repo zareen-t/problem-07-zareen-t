@@ -21,7 +21,7 @@ function SenatorTable(props) {
       <tbody>{senatorRows}</tbody>
     </table>
   );
-}
+};
 
 
 export { SenatorTable };

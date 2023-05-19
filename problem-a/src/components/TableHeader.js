@@ -12,6 +12,6 @@ function TableHeader(props) {
             </tr>
         </thead>
     );
-}
+};
 
 export { TableHeader } ;
